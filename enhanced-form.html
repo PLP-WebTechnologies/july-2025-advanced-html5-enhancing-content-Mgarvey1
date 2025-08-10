@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+   <meta charset="UTF-8"> 
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title> Car Hub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Car Hub Showcase and Club Registration</h1>
+        <p>Explore our featured cars and send us your details to join our club!!!</p>
+    </header>
+    
+
+    <section>
+        <h2>Top 3 Favorite Cars</h2>
+
+        <ul>
+            <li>Ford Mustang GT</li>
+            <li>Chevrolet Camaro ZL1</li>
+            <li>Dodge Challenger SRT Hellcat</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Car Specifications</h2>
+        <table border="1" cellpadding="8"> 
+            <thead>
+                <tr>
+                    <th>Car Model</th>
+                    <th>Horsepower</th>
+                    <th>Top Speed (mph)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ford Mustang GT</td>
+                    <td>435</td>
+                    <td>155</td>
+                </tr>
+                <tr>
+                    <td>Chevrolet Camaro ZL1</td>
+                    <td>650</td>
+                    <td>198</td>
+                </tr>
+                <tr>
+                    <td>Dodge Challenger SRT Hellcat</td>
+                    <td>717</td>
+                    <td>199</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </section>
+
+    <section>
+        <h2>Car Gallery</h2>
+        <img src="../images/pexels-fordmustanggt.jpg" alt="Ford Mustang GT" width="300" height="300">
+        <img src="../images/pexels-chevroletcamaro.jpg" alt="Chevrolet Camaro ZL1" width="300" height="200">
+        <img src="../images/pexels-dodgehellcat.jpg" alt="Dodge Challenger SRT Hellcat" width="300" height="200">      
+    </section>
+
+    <section>
+        <h2>Join Our Car Club</h2>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Car Preferences</legend>
+
+                <label for="favcar">Favorite Car Model</label>
+
+                <select  id="favcar" name="favcar" required >
+                    <option value="">--Select a car--</option>
+                    <option value="mustang">Ford Mustang GT</option>
+                    <option value="camaro">Chevrolet Camaro ZL1</option>
+                    <option value="challenger">Dodge Challenger SRT Hellcat</option>
+
+                </select><br><br>
+
+                <label>Transmission Type:</label>
+
+                <input type="radio" id="manual" name="transmission" value="manual" required>
+                <label for="manual">Manual</label>
+
+                <input type="radio" id="automatic" name="transmission" value="automatic" required>
+                <label for="automatic">Automatic</label><br><br>
+                
+
+            
+
+            </fieldset>
+
+            <input type="submit" value="Join Now">
+
+        </form>
+    </section>
+</body>
+</html>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
